@@ -1,0 +1,12 @@
+Humanoide a base de cubos-Puntos pivote y jerarquia, hacer una pose.
+Solo cubo, no hacer escalado a los cubos para no afectar a la jerarquía
+Viped o Cat -> hacer la misma pose, que salude y que limpie una mesa directa e inversa(documento de las cinemáticas diciendo algo sobre su difucultad)
+
+3 pestaña-afectar solo al pivote, en el panel al lado de curvas(izq es una especie de acceso directo) y enlazar cubos.
+Para poner limites- (link info) y bloqueas rotaciones.
+
+Hacer Bípedo o Cat. hacer un clon y hacer todo con directa o inversa
+Crear bipedos: Ultima pestaña, Bipen Autokey
+Crear Cat: Panel 5- Cat Object y usar Cat Parent usar humano base, selecionar una parte y moverla aplicar escalado etc.
+	   Actua sobre capas y no vale por Autokey, se entra en modo animación creando capas y animandolas: pestaña de animacion, Sale el menú de capas
+	   Capa absoluta: Poner modo de rojo a verde(cámara) y poner autokey

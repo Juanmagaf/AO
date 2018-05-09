@@ -1,0 +1,33 @@
+Rayo de un foco
+Colisión tiene vector normal a la suferficie de un rayo
+
+--
+Plano - Divisiones(Parametres)-Editarlo(convertir malla poligonos boton derecho "mess") (Modificador noise) (Modificador Bend para curvas)
+Rendering-Compacto
+1.obj de control 2. otro copie trayectoria 3. hacer plano 4. ajustar rotacion
+
+--
+
+ANEXO: Funciones básicas de Maxscript necesarias
+
+-- Posición de un objeto
+$Objeto.pos
+
+-- Vector 'orientación' de un objeto (depende del sistema de coordenadas 'pivote')
+$Objeto.dir
+
+-- Producto vectorial
+v3 = cross v1 v2
+
+-- Creación de un rayo
+Rayo = ray posicionOrigen direccionRayo
+
+-- Calculo de colisión
+Colision = IntersectRay ObjetoIntersecado Rayo
+
+-- Cuaternio A [x y x]
+Quaternion = quat RotAngle (normalize RotVector)
+
+-- Uso de Cuaternios
+RotEuler = QuatToEuler Quaternion
+rotate ObjToRotate RotEuler
