@@ -1,5 +1,8 @@
 Para saludar no tuve problemas de hacerlo con ambas formas de los tipos de cinemáticas puesto que se puede realizar con rotaciones solamente
 como en cinemática directa, y solo con movimiento completo con cinemática inversa ya que son pocas rotaciones las que tiene que hacer.
 
+Bípedo:
 Sin embargo a la hora de limpiar la mesa, se puede realizar la directa controlando los ángulos, pero la inversa no puedes controlas el movimiento completo
-solo con poner la mano, necesitamos rotar el cuepo que ya implicaría usar la cinemática directa.
+solo con poner la mano tan correctamente como se puede ver en la animación, necesitamos rotar el cuepo que ya implicaría usar la cinemática directa.
+
+Mi conclusión es que debes mezclar las dos para que se haga una animación más completa
